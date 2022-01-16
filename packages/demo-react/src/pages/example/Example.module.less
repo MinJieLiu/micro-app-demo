@@ -1,0 +1,59 @@
+.example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.title {
+  margin: 20px 0;
+  font-weight: 500;
+  text-align: center;
+
+  b {
+    margin: 0 6px;
+    font-weight: bold;
+  }
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex-shrink: 0;
+  width: calc(100% / 3);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+
+  h2 {
+    display: block;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  sub {
+    color: #476582;
+    font-size: 1rem;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 0 24px;
+  line-height: 52px;
+  font-weight: 500;
+  color: #476582;
+  border: 2px solid #476582;
+  border-radius: 6px;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+    background: #476582;
+  }
+}

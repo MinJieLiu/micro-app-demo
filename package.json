@@ -1,0 +1,29 @@
+{
+  "name": "micro-app-demo",
+  "version": "1.0.0",
+  "description": "微应用示例",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C ./packages/demo-react dev",
+    "dev1": "pnpm -C ./packages/demo-child-react dev",
+    "dev2": "pnpm -C ./packages/demo-child-vue dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinJieLiu/micro-app-demo.git"
+  },
+  "keywords": [
+    "micro-app",
+    "micro-app-demo"
+  ],
+  "author": "MinJieLiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinJieLiu/micro-app-demo/issues"
+  },
+  "homepage": "https://github.com/MinJieLiu/micro-app-demo#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}
