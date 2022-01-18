@@ -4,9 +4,7 @@
   "description": "微应用示例",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm -C ./packages/demo-react dev",
-    "dev1": "pnpm -C ./packages/demo-child-react dev",
-    "dev2": "pnpm -C ./packages/demo-child-vue dev"
+    "dev": "pnpm -r dev"
   },
   "repository": {
     "type": "git",
