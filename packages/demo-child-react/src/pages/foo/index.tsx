@@ -1,12 +1,10 @@
-import logo from "../../logo.svg";
-import styles from "./Foo.module.css";
-
-const logoURL = new URL(logo, import.meta.url);
+import logo from '../../logo.svg';
+import styles from './Foo.module.css';
 
 export default function Foo() {
   return (
     <>
-      <img className={styles.img} alt="" src={logoURL.href} />
+      <img className={styles.img} alt="" src={logo} />
       <div className={styles.foo}>当前位置：子应用子路由</div>
     </>
   );
