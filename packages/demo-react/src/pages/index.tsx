@@ -14,6 +14,7 @@ export default function Pages() {
             key="react"
             className="micro-app"
             entry="//localhost:3002/react/src/main.tsx"
+            // entry="//localhost:5000/react/main.js"
             fallback="加载中"
             history={history}
           />
