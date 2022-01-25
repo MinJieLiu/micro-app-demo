@@ -26,7 +26,8 @@ export default function Pages() {
           <MicroApp
             key="vue"
             className="micro-app"
-            entry="//localhost:3004/vue/src/main.ts"
+            entry="//localhost:3004/vue/src/main.tsx"
+            // entry="//localhost:5000/vue/main.js"
             fallback="加载中"
             history={history}
           />

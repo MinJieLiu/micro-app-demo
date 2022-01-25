@@ -1,11 +1,11 @@
 import {
   unstable_HistoryRouter as HistoryRouter,
   Link,
-} from "react-router-dom";
-import Pages from "./pages";
-import { history } from "./common/history";
-import logo from "./logo.svg";
-import styles from "./App.module.less";
+} from 'react-router-dom';
+import Pages from './pages';
+import { history } from './common/history';
+import logo from './logo.svg';
+import styles from './App.module.less';
 
 function App() {
   return (

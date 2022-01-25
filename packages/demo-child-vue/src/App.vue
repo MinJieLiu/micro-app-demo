@@ -6,11 +6,10 @@ import HelloWorld from "./components/HelloWorld.vue";
 import logo from "./assets/logo.png";
 
 const msg = ref("Hello Vue 3 + TypeScript + Vite");
-const logoURL = new URL(logo, import.meta.url);
 </script>
 
 <template>
-  <img class="vue-logo" alt="Vue logo" :src="logoURL.href" />
+  <img class="vue-logo" alt="Vue logo" :src="logo" />
   <HelloWorld :msg="msg" />
 </template>
 
