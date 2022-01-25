@@ -12,7 +12,7 @@ importers:
 
   packages/demo-child-react:
     specifiers:
-      '@micro-web/sub': ^0.2.1
+      '@micro-web/sub': ^0.2.3
       '@micro-web/vite-plugin': ^0.2.0
       '@types/react': ^17.0.33
       '@types/react-dom': ^17.0.10
@@ -24,7 +24,7 @@ importers:
       react-router-dom: ^6.2.1
       vite: ^2.7.2
     dependencies:
-      '@micro-web/sub': 0.2.1
+      '@micro-web/sub': 0.2.3
       history: 5.2.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -39,20 +39,20 @@ importers:
 
   packages/demo-child-vue:
     specifiers:
-      '@micro-web/sub': ^0.2.1
+      '@micro-web/sub': ^0.2.3
       '@micro-web/vite-plugin': ^0.2.0
       '@vitejs/plugin-vue': ^2.0.0
       vite: ^2.7.2
       vue: ^3.2.25
       vue-tsc: ^0.29.8
     dependencies:
-      '@micro-web/sub': 0.2.1
+      '@micro-web/sub': 0.2.3
       vue: 3.2.26
     devDependencies:
       '@micro-web/vite-plugin': 0.2.0
       '@vitejs/plugin-vue': 2.0.1_vite@2.7.12+vue@3.2.26
       vite: 2.7.12
-      vue-tsc: 0.29.8
+      vue-tsc: 0.29.8_typescript@4.5.4
 
   packages/demo-react:
     specifiers:
@@ -372,8 +372,8 @@ packages:
     resolution: {integrity: sha512-Q3kklcTmh25iiNMGWpsqVasXfMGB0mpdRsmz5vIn/Ro/G1p/oloiOttKDic0qSz2ulDKSxLLXnO5hiVpmvU9Dg==}
     dev: false
 
-  /@micro-web/sub/0.2.1:
-    resolution: {integrity: sha512-pqf3zxYnD4K8aDOrxK5ltRsyH+d64uaAcOijbtb+Z/3q+udYFE3XPIiMgNnZmEPvSgPQ57UEZZdy91DeJxJj5A==}
+  /@micro-web/sub/0.2.3:
+    resolution: {integrity: sha512-xBjV7r1xa+KqeQiaDBS9w4sA1emDiBU032hgd79Wiz77IToVbXctDoVcGE6S4fT/BWWaMIGkq25XMAuey2XdVQ==}
     dev: false
 
   /@micro-web/vite-plugin/0.2.0:
@@ -1637,13 +1637,14 @@ packages:
       vscode-typescript-languageservice: 0.29.8
     dev: true
 
-  /vue-tsc/0.29.8:
+  /vue-tsc/0.29.8_typescript@4.5.4:
     resolution: {integrity: sha512-pT0wLRjvRuSmB+J4WJT6uuV9mO0KtSSXEAtaVXZQzyk5+DJdbLIQTbRce/TXSkfqt1l1WogO78RjtOJFiMCgfQ==}
     hasBin: true
     peerDependencies:
       typescript: '*'
     dependencies:
       '@volar/shared': 0.29.8
+      typescript: 4.5.4
       vscode-vue-languageservice: 0.29.8
     dev: true
 

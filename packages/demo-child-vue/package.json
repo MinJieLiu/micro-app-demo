@@ -7,7 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@micro-web/sub": "^0.2.1",
+    "@micro-web/sub": "^0.2.3",
     "vue": "^3.2.25"
   },
   "devDependencies": {
