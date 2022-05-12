@@ -8,5 +8,5 @@ export default defineConfig({
   server: {
     port: 3002,
   },
-  plugins: [react(), microWebPlugin()],
+  plugins: [react(), microWebPlugin({ styleAppendTo: 'document.head' })],
 });
